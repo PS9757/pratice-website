@@ -7,7 +7,12 @@ h1 {
      font-size: 3rem;
      font-weight: bold;
 }
-
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
 h3{
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -53,16 +58,16 @@ h3{
 
 .featuredog{
     text-align: center;
-    padding: 10%  0;
+    
 }
 
 .feature-para{
-    padding: 0 20%;
+    padding: 0 10%;
     color: #8f8f8f;
 }
 
 #features{
-    padding: 7% 10%;
+    padding: 17% 15%;
 }
 
 .fonta{
@@ -72,4 +77,32 @@ h3{
 
 .fonta:hover{
     color: #f90e31;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;   
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
